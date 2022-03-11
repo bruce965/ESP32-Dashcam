@@ -103,6 +103,7 @@ uint8_t sxga_h[2] = {0x00, 0x04}; // 1024
 uint8_t uxga_w[2] = {0x40, 0x06}; // 1600
 uint8_t uxga_h[2] = {0xB0, 0x04}; // 1200
 
+void deleteFileInDir(const char * val);
 
 // if we have no camera, or sd card, then flash rear led on and off to warn the human SOS - SOS
 void major_fail() {
